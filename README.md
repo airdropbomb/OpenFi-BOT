@@ -25,10 +25,7 @@ OpenFi BOT
 
 1. **Clone The Repositories:**
    ```bash
-   git clone https://github.com/vonssy/OpenFi-BOT.git
-   ```
-   ```bash
-   cd OpenFi-BOT
+   git clone https://github.com/airdropbomb/OpenFi-BOT.git && cd OpenFi-BOT
    ```
 
 2. **Install Requirements:**
