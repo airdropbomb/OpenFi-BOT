@@ -110,12 +110,18 @@ class OpenFi:
 
     def welcome(self):
         print(
-            f"""
-        {Fore.GREEN + Style.BRIGHT}OpenFi{Fore.BLUE + Style.BRIGHT} Auto BOT
-            """
-            f"""
-        {Fore.GREEN + Style.BRIGHT}Rey? {Fore.YELLOW + Style.BRIGHT}<INI WATERMARK>
-            """
+            f"{Fore.CYAN + Style.BRIGHT}"
+            f"\n"
+            f"       █████╗ ██████╗ ██████╗     ███╗   ██╗ ██████╗ ██████╗ ███████╗\n"
+            f"      ██╔══██╗██╔══██╗██╔══██╗    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝\n"
+            f"      ███████║██║  ██║██████╔╝    ██╔██╗ ██║██║   ██║██║  ██║█████╗  \n"
+            f"      ██╔══██║██║  ██║██╔══██╗    ██║╚██╗██║██║   ██║██║  ██║██╔══╝  \n"
+            f"      ██║  ██║██████╔╝██████╔╝    ██║ ╚████║╚██████╔╝██████╔╝███████╗\n"
+            f"      ╚═╝  ╚═╝╚═════╝ ╚═════╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝\n"
+            f"        By : ADB NODE\n"
+            f"        {Fore.GREEN + Style.BRIGHT}Auto Bot {Fore.BLUE + Style.BRIGHT}Openfi\n"
+            f"        {Fore.GREEN + Style.BRIGHT}Rey? {Fore.YELLOW + Style.BRIGHT}<INI WATERMARK>\n"
+            f"{Style.RESET_ALL}"
         )
 
     def format_seconds(self, seconds):
